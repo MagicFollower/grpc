@@ -1,10 +1,8 @@
 ## gRPC双向流
 
-时间：2022年12月16日23:04:33
 
----
 
-##### 一、需求分析
+#### 一、需求分析
 
 - 服务器端
 
@@ -23,21 +21,21 @@
 
 
 
-##### 二、效果展示
+#### 二、效果演示
 
 ① 客户端启动前连接gRPC-Server
 
 - 5次失败后，SpringBoot启动失败
 
-![]()
+[grpc/客户端启动后，重连服务端.gif at main · MagicFollower/grpc (github.com)](https://github.com/MagicFollower/grpc/blob/main/doc/images/客户端启动后，重连服务端.gif)
 
 ② 客户端启动成功后，接受服务器keep-alive（间隔5s）
 
-![]()
+[grpc/客户端连接成功，接受keep-alive.gif at main · MagicFollower/grpc (github.com)](https://github.com/MagicFollower/grpc/blob/main/doc/images/客户端连接成功，接受keep-alive.gif)
 
 ③ 客户端启动后，服务器失去连接，重连
 
-![]()
+[grpc/客户端失败重连5次.gif at main · MagicFollower/grpc (github.com)](https://github.com/MagicFollower/grpc/blob/main/doc/images/客户端失败重连5次.gif)
 
 
 
