@@ -14,7 +14,7 @@
   - 失败重连
   - SpringBoot启动前连接，20次重试，连接失败则SpringBoot启动失败
     - SpringBoot启动失败后给出直观的提示
-    - SpringBoot启动后重试，不间断重试
+  - SpringBoot启动后重试，不间断重试
 
 
 
