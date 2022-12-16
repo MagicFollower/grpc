@@ -27,7 +27,7 @@
 
 - 5次失败后，SpringBoot启动失败
 
- ![](https://github.com/MagicFollower/grpc/blob/main/doc/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%AF%E5%8A%A8%E5%90%8E%EF%BC%8C%E9%87%8D%E8%BF%9E%E6%9C%8D%E5%8A%A1%E7%AB%AF.gif)
+ ![](https://github.com/MagicFollower/grpc/blob/main/doc/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A4%B1%E8%B4%A5%E9%87%8D%E8%BF%9E5%E6%AC%A1.gif)
 
 ② 客户端启动成功后，接受服务器keep-alive（间隔5s）
 
@@ -35,7 +35,7 @@
 
 ③ 客户端启动后，服务器失去连接，重连
 
- ![](https://github.com/MagicFollower/grpc/blob/main/doc/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A4%B1%E8%B4%A5%E9%87%8D%E8%BF%9E5%E6%AC%A1.gif)
+ ![](https://github.com/MagicFollower/grpc/blob/main/doc/images/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%AF%E5%8A%A8%E5%90%8E%EF%BC%8C%E9%87%8D%E8%BF%9E%E6%9C%8D%E5%8A%A1%E7%AB%AF.gif)
 
 
 
